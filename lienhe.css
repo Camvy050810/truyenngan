@@ -1,0 +1,241 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+div {
+  display: block;
+}
+html {
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: rgb(221, 219, 219);
+}
+#box-left img:hover,
+#box-right img:hover {
+  opacity: 0.8;
+}
+.box-max {
+  position: relative;
+  background: #fff;
+  width: 75%;
+  min-height: 800px;
+  padding: 0px 0px 30px;
+  margin: 0 auto;
+}
+#header {
+  width: 73.35%;
+  height: 105px;
+  padding-left: 25px;
+  position: fixed;
+  z-index: 999;
+  top: 0;
+  display: inline-block;
+  background: #fff;
+}
+#header #header-top .icon-more i {
+  position: absolute;
+  font-size: 20px;
+  height: 20px;
+  width: 25px;
+  color: rgb(61, 120, 209);
+  display: inline-block;
+  padding: 20px 20px 0px 20px;
+  cursor: pointer;
+}
+#header #header-top img {
+  position: absolute;
+  display: inline-block;
+  margin: 15px 0px 0px 65px;
+  padding: 0px 0px 0px 20px;
+  border-left: 1px solid rgb(160, 160, 160);
+}
+#header #header-top .icon-search i {
+  float: right;
+  padding: 25px 20px 0px 0px;
+  color: rgb(61, 120, 209);
+  font-size: 18px;
+  cursor: pointer;
+}
+#header #header-top .guibai a img {
+  position: absolute;
+  display: block;
+  right: 50px;
+  border: none;
+  border-radius: 10px;
+}
+#header #header-bot .nav {
+  position: relative;
+  top: 65px;
+  background-color: #8e509b;
+}
+#header #header-bot ul li {
+  display: inline-block;
+  background-color: #8e509b;
+  line-height: 40px;
+  padding: 0px 20px;
+  color: #fff;
+}
+#header #header-bot ul li a {
+  line-height: 40px;
+  font-size: 14px;
+  font-weight: 600;
+  color: #fff;
+  text-decoration: none;
+}
+#header #header-bot ul li:hover {
+  background-color: white;
+}
+#header #header-bot ul li:hover a {
+  color: black;
+}
+#header #header-bot ul li:hover i {
+  color: #000;
+}
+.box-max #chude {
+  position: absolute;
+  width: 95.6%;
+  height: 40px;
+  left: 25px;
+  top: 130px;
+}
+.box-max #chude h1 {
+  font-size: 2em;
+}
+.box-max #thongtin{
+    position: absolute;
+    width: 720px;
+    height: 364px;
+    top: 200px;
+    left: 25px;
+    border-bottom: 1px solid #ccc;
+    border-right: 1px solid #ccc;
+    box-shadow: 1px 1px #999;
+}
+#thongtin #ten{
+    float: left;
+    width: 47%;
+    height: 60px;
+}
+#thongtin #ten label{
+    color: grey;
+}
+#thongtin #ten input{
+    margin-top: 5px;
+    width: 100%;
+    height: 36px;
+    padding: 10px;
+}
+#thongtin #email{
+    float: left;
+    width: 47%;
+    height: 60px;
+    margin-left: 25px;
+}
+#thongtin #email label{
+    color: grey;
+}
+#thongtin #email input{
+    margin-top: 5px;
+    width: 100%;
+    height: 36px;
+    padding: 10px;
+}
+#thongtin #noidung{
+    float: left;
+    width: 100%;
+    height: 188px;
+    margin-top: 10px;
+    padding-top: 20px;
+}
+#thongtin #noidung label{
+    color: grey;
+}
+#thongtin #noidung textarea{
+    width: 97.5%;
+    height: 140px;
+    padding: 10px;
+}
+#thongtin #guitinnhan{
+    position: absolute;
+    bottom: 40px;
+    width: 97.5%;
+    height: 36px;
+    background-color: rgb(61, 120, 209);
+}
+#thongtin #guitinnhan input{
+    position: absolute;
+    top: 0px;
+    width: 100%;
+    padding: 10px 0 10px 0;
+    color: #fff;
+}
+#content {
+  position: absolute;
+  left: 25px;
+  bottom: 50px;
+  width: 95.2%;
+  height: 150px;
+  border: 1px solid #ddd;
+}
+#content #left {
+  position: absolute;
+  width: 30%;
+  height: 60%;
+  bottom: 25px;
+  left: 20px;
+}
+#content #left a > img {
+  width: 88%;
+  height: 42%;
+  padding-left: 30px;
+}
+#content #left #mail {
+  padding-left: 35px;
+  text-decoration: none;
+  font-size: 13px;
+  color: #000;
+}
+#content #center {
+  position: absolute;
+  width: 31.5%;
+  height: 60%;
+  bottom: 25px;
+  left: calc(30% + 45px);
+}
+#content #center > h2 {
+  font-size: 20px;
+  font-weight: 300;
+  margin-bottom: 20px;
+  padding: 0 0 10px 20px;
+  border-bottom: 1px solid #ccc;
+  color: #666;
+  line-height: 1.5em;
+}
+#content #center #lienhe a {
+  text-decoration: none;
+  padding-right: 15px;
+  color: #000;
+}
+#content #right {
+  position: absolute;
+  width: 30%;
+  height: 60%;
+  bottom: 25px;
+  right: 20px;
+}
+#content #right p {
+  padding: 10px 0 0 20px;
+  font-style: italic;
+  color: rgb(73, 137, 233);
+  font-size: 15px;
+}
+.box-max #xuatban {
+  position: absolute;
+  font-size: 12px;
+  bottom: 25px;
+  left: 25px;
+}
+.box-max #xuatban a {
+  text-decoration: none;
+  color: rgb(73, 137, 233);
+}

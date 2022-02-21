@@ -1,0 +1,54 @@
+#sotrang-top #muiten>a>i{
+    position: absolute;
+    text-decoration: none;
+    font-size: 19px;
+    left: 0px;
+    padding: 6.6px 10px 6.6px 10px;
+    border: 1px solid #ccc;
+    color: #000;
+  }
+  #sotrang-top #mot a {
+    position: absolute;
+    text-decoration: none;
+    font-size: 19px;
+    left: 45px;
+    padding: 5px 10px 5px 10px;
+    border: 1px solid #ccc;
+    color: #000;
+  }
+  #sotrang-top #hai a{
+    position: absolute;
+    text-decoration: none;
+    font-size: 19px;
+    left: 90px;
+    padding: 5px 10px 5px 10px;
+    border: 1px solid #ccc;
+    color: #000;
+  }
+  #sotrang-bot #muiten a>i{
+      position: absolute;
+      text-decoration: none;
+      font-size: 19px;
+      left: 0px;
+      padding: 6.6px 10px 6.6px 10px;
+      border: 1px solid #ccc;
+      color: #000;
+    }
+    #sotrang-bot #mot a {
+      position: absolute;
+      text-decoration: none;
+      font-size: 19px;
+      left: 45px;
+      padding: 5px 10px 5px 10px;
+      border: 1px solid #ccc;
+      color: #000;
+    }
+    #sotrang-bot #hai a{
+      position: absolute;
+      text-decoration: none;
+      font-size: 19px;
+      left: 90px;
+      padding: 5px 10px 5px 10px;
+      border: 1px solid #ccc;
+      color: #000;
+    }
