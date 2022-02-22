@@ -245,7 +245,7 @@ html {
   width: 50%;
   height: 85%;
 }
-#box-left #box-song #right-than a{
+#box-left #box-song #right-than >a>h4{
   text-decoration: none;
   color: #000;
 }
